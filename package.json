@@ -1,0 +1,37 @@
+{
+  "name": "stickyants-sp-util",
+  "version": "1.0.0",
+  "description": "A set of utility functions and classes to simplify working with JSOM for SharePoint Online/2013/2016 development. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhdev/stickyants-sp-util.git"
+  },
+  "keywords": [
+    "SharePoint",
+    "Online",
+    "SharePoint",
+    "On-Prem",
+    "SharePoint",
+    "2013",
+    "SharePoint",
+    "2016",
+    "Taxonomy",
+    "Publishing"
+  ],
+  "author": "Suhail Abood <suhail.abood@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhdev/stickyants-sp-util/issues"
+  },
+  "homepage": "https://github.com/suhdev/stickyants-sp-util#readme",
+  "devDependencies": {
+    "@types/sharepoint": "^2016.1.2",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.2"
+  }
+}
