@@ -4,7 +4,8 @@
   "description": "A set of utility functions and classes to simplify working with JSOM for SharePoint Online/2013/2016 development. ",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest __tests__",
+    "prepublish": "tsc -p ."
   },
   "repository": {
     "type": "git",
@@ -33,5 +34,10 @@
     "jest": "^23.6.0",
     "ts-jest": "^23.10.5",
     "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "lodash.find": "^4.6.0",
+    "lodash.some": "^4.6.0",
+    "lodash.startswith": "^4.2.1"
   }
 }
