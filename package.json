@@ -2,7 +2,7 @@
   "name": "stickyants-sp-util",
   "version": "1.0.0",
   "description": "A set of utility functions and classes to simplify working with JSOM for SharePoint Online/2013/2016 development. ",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest"
   },
