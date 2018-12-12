@@ -17,7 +17,7 @@ export function getUserDelveLink(email:string){
 
 
 /**
- * Creates a link to a specific version of a page or document using UIVersion 
+ * Creates a link to a specific version of the current page given a ui version
  * @param uiVersion the UIVersion to generate a link to 
  */
 export function createVersionLink(uiVersion:number){

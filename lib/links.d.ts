@@ -9,7 +9,7 @@ export declare function getUserPictureLink(email: string): string;
  */
 export declare function getUserDelveLink(email: string): string;
 /**
- * Creates a link to a specific version of a page or document using UIVersion
+ * Creates a link to a specific version of the current page given a ui version
  * @param uiVersion the UIVersion to generate a link to
  */
 export declare function createVersionLink(uiVersion: number): string;

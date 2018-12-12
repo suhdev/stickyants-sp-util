@@ -1,6 +1,6 @@
 export { createFolderInListIfNotExist, folderExistsInList, createFolderInList, getFolderInListByName, getRootFolder } from './files';
 export { SPErrorCode } from './errorcodes';
-export { termSetToJson, termToJson } from './taxonomy';
+export { termSetToJson, termToJson, createTermStore, TermStoreContextCallback, ITermStore } from './taxonomy';
 export { executeOnContext } from './execute';
 export { getNextMajorVersion, getPreviousMajorVersion } from './versions';
 export { getWebProperties, setWebProperties } from './web';

@@ -6,7 +6,10 @@ getRootFolder} from './files';
 
 export {SPErrorCode} from './errorcodes';
 
-export {termSetToJson, termToJson} from './taxonomy';
+export {termSetToJson, termToJson,
+createTermStore,
+TermStoreContextCallback,
+ITermStore} from './taxonomy';
 
 export {executeOnContext} from './execute';
 
